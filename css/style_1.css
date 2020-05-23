@@ -1,0 +1,162 @@
+.required_sign {
+    color: #ff0000;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4px;
+}
+.error {
+    color: #ff0000;
+    font-size: 12px;
+}
+
+.ques_main {
+    display: inline-flex;
+    align-items: center;
+}
+
+.form_border_row .form_col_left {
+    width: 23.149%;
+}
+
+.form_col_left label {
+    display: flex;
+    align-items: center;
+}
+
+.required_sign .ques_main {
+    padding-left: 5px;
+}
+
+.form_all_content {
+    padding: 9px 30px 10px;
+}
+
+.form_border_row:not(:first-child) {
+    border-top: 1px solid #edeef3;
+}
+
+.form_border_row .form_group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form_border_row  .form_col_right {
+    width: 76.851%;
+    margin-left: auto;
+}
+
+.form_border_row  .form_col_right .form_control {
+    max-width: 621px;
+    width: 100%;
+}
+
+.form_border_row {
+    padding: 17px 0 10px;
+}
+
+.form_border_row .font_18_m {
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.form_border_row .form_group_border_box {
+    display: inline-flex;
+    width: 21.39%;
+    padding: 0 10px;
+}
+
+.form_border_row .form_group_border_box:not(:last-child) {
+    /* margin-right: 20px; */
+}
+
+.form_group_border_box_row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.form_info_border {
+    border: 1px solid #edeef3;
+    height: 100%;
+    width: 100%;
+}
+
+.form_info_border .form_control_header {
+    padding: 11.5px 15px;
+    border-bottom: 1px solid #edeef3;
+    width: 100%;
+}
+
+.form_control_header .custom_radio {
+    padding: 0 25px 0 0;
+    width: 100%;
+    display: flex;
+}
+
+.form_control_header .custom_radio .radio_checkmark {
+    right: 0;
+    margin-right: 0;
+}
+
+.form_info_border .form_control_footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: auto;
+    padding: 0 15px 15px;
+}
+
+.form_control_footer .red_txt_btn {
+    text-transform: capitalize;
+    position: relative;
+}
+.form_control_footer .red_txt_btn:not(:last-child):after {
+    content: '';
+     border-right: 1px solid #acacb7;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 1px;
+    height: 15px;
+}
+
+.form_info_border .form_control_body {
+    max-width: 155px;
+    width: 100%;
+    padding: 14px 15px 13px;
+}
+
+.shipping_add_footer {
+    margin-top: 10px;
+}
+
+.form_main_footer > *:not(:last-child), .form_change_profile_border_row .form_control_footer > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.border_btn {
+    padding: 15.5px 28.32px;
+    font-size: 16px;
+}
+
+.form_main_footer {
+    border-top: 1px solid #edeef3;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form_change_profile_border_row .form_control_footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mb_0 {
+    margin-bottom: 0 !important;
+}
+
+.form_change_profile_border_row.form_border_row .font_18_m {
+    margin-bottom: 3px;
+}
